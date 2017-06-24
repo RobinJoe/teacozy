@@ -1,0 +1,75 @@
+/* The overall Website Body Section */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* The Header Section */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header img {
+  text-align: right;
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* Adding Flex-grow 1; here appeared to have specifically moved the
+nav tag to the right of its parent tag, the header. Why is that? */
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/* The Centre Content Section */
+
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+  width: 100%;
+}
+
+/* The specificity of using the #mission ID followed by the .Ourmission
+class was also draw directly from the Developer Tools investigation */
+#mission .Ourmission {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2 h3 h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* The Tea of the Month Content Section */
+
+.monthtea .content {
+   width: 1000px;
+ }
