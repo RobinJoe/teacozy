@@ -70,6 +70,28 @@ h2 h3 h4 {
 
 /* The Tea of the Month Content Section */
 
-.monthtea .content {
+#monthtea {
    width: 1000px;
+   height: 700px;
+   margin: auto;
+   padding-top: 70px;
+ }
+
+.teaimages {
+  padding: 5px;
+}
+
+ .teaimages img {
+   margin: 10px;
+   height: 200px;
+   width: 300px;
+   align-content: center;
+ }
+
+/* My h4 text on the webpage appears to have extra space around it. This is
+why I removed the 5px of paddign around the h4 tags. I'm not sure which
+style rule is causing the extra space around the h4 tags in this section */
+ .teaimages h4 {
+   display: block;
+   text-align: center;
  }
