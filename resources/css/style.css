@@ -91,9 +91,10 @@ h2 h3 h4 {
 /* My h4 text on the webpage appears to have extra space around it. This is
 why I removed the 5px of paddign around the h4 tags. I'm not sure which
 style rule is causing the extra space around the h4 tags in this section */
- .teaimages h4 {
+ .teaimages span {
    display: block;
    text-align: center;
+   font-weight: bold;
  }
 
 /* Locations Section */
@@ -116,7 +117,7 @@ style rule is causing the extra space around the h4 tags in this section */
 /* This was another section I drew directly from the Developer
 Tools investigation. my class setup was correct, but I did not
 understand enough about flex basis to implement the rule. I did
-understand the justify content: center; rule, however. */
+understand the justify content: center; rule though. */
 .stores {
   opacity: 1.0;
   display: flex;
@@ -140,4 +141,5 @@ understand the justify content: center; rule, however. */
 footer {
   margin-right: 20px;
   text-align: left;
+  font-weight: bold;
 }
